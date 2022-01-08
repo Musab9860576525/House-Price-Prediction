@@ -16,3 +16,34 @@ Kaggle
 5) Latitude
 6) Longitude
 7) House price of unit area
+ 
+# Steps Followed
+1) Data Import
+2) Column Renaming
+3) Data cleaning or null value imputation
+4) Creating Visualization
+5) Train Test spilt
+6) Apply feature selection
+   SelectKBest with mutual info regressor
+7) Model building
+   1) Simple linear regression
+   2) Decision Tree Regressor
+   3) Random Forest Regressor
+# Results or Accuracy
+1) Simple linear regression 
+     1) r2 score                                  0.561
+     2) Mean absolute error                       6.86
+     3) Mean absolute percentage error            0.0.19437 
+  
+2) Decision Tree Regressor 
+     1) r2 score                                  0.673
+     2) Mean absolute error                       5.80
+     3) Mean absolute percentage error            0.1556  
+     
+3) Random Forest Regressor 
+     1) r2 score                                  0.766
+     2) Mean absolute error                       4.54
+     3) Mean absolute percentage error            0.1227
+       
+# Model Selection on basis of r2score, MAE and MAPE
+   Random Forest Regressor(RF) becoz, it has high r2score and lower MAE and MAPE amoungs all the three models. 
